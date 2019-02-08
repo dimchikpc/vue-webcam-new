@@ -11,7 +11,9 @@
   "author": "Dmytro Dorofeev",
   "license": "MIT",
   "dependencies": {},
-  "repository": {},
+  "repository": {
+    "GitHub": "https://github.com/dimchikpc/vue-webcam-new.git"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^6.4.1",
