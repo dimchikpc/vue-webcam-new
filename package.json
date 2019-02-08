@@ -4,11 +4,15 @@
   "description": "A Vue.js webcam module",
   "main": "dist/vue-webcam.js",
   "scripts": {
-    "build": "rimraf ./dist && webpack --config ./webpack.config.js"
+    "build": "rimraf ./dist && webpack --config ./webpack.config.js",
+    "version": "npm run build && git add -A dist",
+    "postversion": "git push && git push --tags && rm -rf build/temp"
   },
   "author": "Dmytro Dorofeev",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "GitRepo": "git+https://github.com/dimchikpc/vue-webcam-new.git"
+  },
   "repository": {},
   "devDependencies": {
     "babel-core": "^6.26.0",

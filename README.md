@@ -3,7 +3,11 @@ Using:
 import WebCam from 'vue-webcam-new';
 
 // Register component
-... components: { "web-cam": WebCam } ...
+export default {
+    ...
+        components: { "web-cam": WebCam }
+    ...
+}
 
 // Component
 <web-cam
