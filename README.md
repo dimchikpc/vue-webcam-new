@@ -59,6 +59,8 @@ export default {
 
 GIT
 
+[GITHUB]
+
 [GITHUB]: <https://github.com/dimchikpc/vue-webcam-new>
 
 
