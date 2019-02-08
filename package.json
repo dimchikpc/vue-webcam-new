@@ -1,6 +1,6 @@
 {
   "name": "vue-webcam-new",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "A Vue.js webcam module",
   "main": "dist/vue-webcam.js",
   "scripts": {
