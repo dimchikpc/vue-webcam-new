@@ -1,3 +1,9 @@
+Install:
+```sh
+npm i vue-webcam-new
+```
+
+
 Using:
 ```sh
 import WebCam from 'vue-webcam-new';
