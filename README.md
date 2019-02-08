@@ -55,5 +55,10 @@ export default {
         }
     ...
 }
-
 ```
+
+GIT
+```sh
+[GITHUB]: <https://github.com/dimchikpc/vue-webcam-new>
+```
+
