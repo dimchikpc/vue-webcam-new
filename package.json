@@ -1,8 +1,9 @@
 {
   "name": "vue-webcam-new",
   "version": "1.0.19",
-  "description": "A Vue.js webcam module",
+  "description": "A Vue component for capturing image from webcam.",
   "main": "dist/vue-webcam.js",
+  "homepage": "https://github.com/dimchikpc/vue-webcam-new",
   "scripts": {
     "build": "rimraf ./dist && webpack --config ./webpack.config.js",
     "version": "npm run build && git add -A dist",
@@ -11,8 +12,16 @@
   "author": "Dmytro Dorofeev",
   "license": "MIT",
   "dependencies": {},
+  "keywords": [
+    "vue",
+    "vuejs",
+    "webcam",
+    "stream",
+    "component"
+  ],
   "repository": {
-    "GitHub": "https://github.com/dimchikpc/vue-webcam-new.git"
+    "type" : "git",
+    "url" : "https://github.com/dimchikpc/vue-webcam-new.git"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
