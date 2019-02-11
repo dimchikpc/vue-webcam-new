@@ -1,6 +1,6 @@
 {
   "name": "vue-webcam-new",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "A Vue component for capturing image from webcam.",
   "main": "dist/vue-webcam.js",
   "homepage": "https://github.com/dimchikpc/vue-webcam-new",
@@ -20,8 +20,8 @@
     "component"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/dimchikpc/vue-webcam-new.git"
+    "type": "git",
+    "url": "https://github.com/dimchikpc/vue-webcam-new.git"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
