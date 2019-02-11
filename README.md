@@ -125,8 +125,8 @@ webCamProperties: {
         </tr>
         <tr>
             <td colspan=2 style="font-size: 12px;"> 
-            Automatically upload files to the server on <u>make</u> <u>picture</u> / <u>upload</u> <u>picture</u>
-By ajax settings defined in <b>ajaxSettings</b> object
+            Automatically upload files to the server on **make picture / upload picture**
+By ajax settings defined in **ajaxSettings** object
             </td>
         </tr>
         <tr>
