@@ -56,6 +56,36 @@ webCamProperties: {
 | getWebcamPics | ``` @getWebcamPics="yourMethodHere" ``` | On any changes ( take a picture / upload / delete file ), the method returns an array of files: <br> ``` methods: {``` <br> &nbsp; &nbsp; ```yourMethodHere(files) { console.log(files); }``` <br> ```} ``` |
 | sendData | ``` <button @click="$emit('sendData')"></button> ``` | Custom submit button |
 
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left; font-size: 14px; width:30%">name</th>
+            <th style="text-align: left; font-size: 14px; width:70%">using</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="1">
+                getWebcamPics
+            </td>
+            <td colspan="1">
+                <pre style="margin-bottom:0">@getWebcamPics="yourMethodHere"</pre>
+                On any changes ( take a picture / upload / delete file ), the method returns an array of files:
+                <pre style="margin-bottom:0">methods: { <br> &nbsp; &nbsp; yourMethodHere(files) { <br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;console.log(files); <br>&nbsp; &nbsp;&nbsp; }<br>}</pre>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1">
+                sendData 
+            </td>
+            <td colspan="1">
+                Custom submit button
+                <pre style="margin-bottom:0">@click="$emit('sendData')"</pre>
+            </td>
+        </tr>
+    </tbody>
+</table>
+    
 
 ### Description of properties
 
