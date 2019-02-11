@@ -51,11 +51,6 @@ webCamProperties: {
 ```
 
 ### Functions & Events
-| name | using | description |
-| ------ | ------ | ------ |
-| getWebcamPics | ``` @getWebcamPics="yourMethodHere" ``` | On any changes ( take a picture / upload / delete file ), the method returns an array of files: <br> ``` methods: {``` <br> &nbsp; &nbsp; ```yourMethodHere(files) { console.log(files); }``` <br> ```} ``` |
-| sendData | ``` <button @click="$emit('sendData')"></button> ``` | Custom submit button |
-
 <table>
     <thead>
         <tr>
