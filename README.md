@@ -3,7 +3,7 @@
 
 ### Installation
 ```sh
-$ npm i vue-webcam
+$ npm i vue-webcam-new
 ```
 
 ### Basic usage
