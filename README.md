@@ -207,15 +207,6 @@ By ajax settings defined in **ajaxSettings** object
     </tbody>
 </table>
 
-### Git Repository
-
-GitHub &nbsp; [https://github.com/dimchikpc/vue-webcam-new](https://github.com/dimchikpc/vue-webcam-new)
-
-
-
-
-
-
 
 
 
